@@ -312,19 +312,19 @@
                       "models": [
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_hammer_pulling_0"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_1"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_pulling_1"
+                          "model": "fww:item/reserve_shooter_crossbow_pulling_1"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/reserve_shooter_bayonet_pulling"
                         }
                       ]
                     }
@@ -336,19 +336,19 @@
                       "models": [
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_hammer_pulling_1"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_pulling_2"
+                          "model": "fww:item/reserve_shooter_crossbow_pulling_2"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/reserve_shooter_bayonet_pulling"
                         }
                       ]
                     }
@@ -359,19 +359,19 @@
                   "models": [
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_crossbow_pulling_0"
+                      "model": "fww:item/reserve_shooter_crossbow_pulling_0"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_bayonet_projectile"
+                      "model": "fww:item/reserve_shooter_bayonet_pulling"
                     }
                   ]
                 }
@@ -387,23 +387,23 @@
                       "models": [
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_arrow"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_arrow"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_arrow"
+                          "model": "fww:item/reserve_shooter_crossbow_arrow"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/reserve_shooter_bayonet_projectile"
                         }
                       ]
                     }
@@ -415,23 +415,23 @@
                       "models": [
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_firework"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_rocket"
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_firework"
+                          "model": "fww:item/reserve_shooter_crossbow_firework"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/reserve_shooter_bayonet_projectile"
                         }
                       ]
                     }
@@ -442,19 +442,19 @@
                   "models": [
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/bd/crossbow/squared/musket"
+                      "model": "fww:item/bd/crossbow/reserve_shooter"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/bd/crossbow/squared/musket_hammer"
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_crossbow_standby"
+                      "model": "fww:item/reserve_shooter_crossbow_standby"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_bayonet"
+                      "model": "fww:item/reserve_shooter_bayonet"
                     }
                   ]
                 }
