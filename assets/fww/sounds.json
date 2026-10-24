@@ -183,7 +183,7 @@
     "sounds": [
       {
         "name": "fww:item/rocket_launcher/load_middle1",
-        "pitch": 0.75
+        "pitch": 0.72
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.load"
@@ -192,7 +192,7 @@
     "sounds": [
       {
         "name": "fww:item/rocket_launcher/load_end1",
-        "pitch": 0.8
+        "pitch": 0.85
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.load"
@@ -202,32 +202,22 @@
       {
         "name": "fww:item/firework_rifle/shoot1",
         "volume": 0.9,
-        "pitch": 0.95
+        "pitch": 0.96
       },
       {
         "name": "fww:item/firework_rifle/shoot1",
         "volume": 0.9,
-        "pitch": 1.05
+        "pitch": 1.04
       },
       {
         "name": "fww:item/firework_rifle/shoot2",
         "volume": 0.9,
-        "pitch": 0.95
+        "pitch": 0.96
       },
       {
         "name": "fww:item/firework_rifle/shoot2",
         "volume": 0.9,
-        "pitch": 1.05
-      },
-      {
-        "name": "fww:item/firework_rifle/shoot3",
-        "volume": 0.9,
-        "pitch": 0.95
-      },
-      {
-        "name": "fww:item/firework_rifle/shoot3",
-        "volume": 0.9,
-        "pitch": 1.05
+        "pitch": 1.04
       }
     ],
     "subtitle": "subtitles.fww.item.firework_rifle.shoot"
@@ -236,18 +226,15 @@
     "sounds": [
       {
         "name": "fww:item/firework_shotgun/shoot1",
-        "volume": 0.95,
-        "pitch": 0.92
+        "pitch": 0.95
       },
       {
         "name": "fww:item/firework_shotgun/shoot1",
-        "volume": 0.95,
         "pitch": 1.0
       },
       {
         "name": "fww:item/firework_shotgun/shoot1",
-        "volume": 0.95,
-        "pitch": 1.06
+        "pitch": 1.05
       }
     ],
     "subtitle": "subtitles.fww.item.firework_shotgun.shoot"
@@ -256,10 +243,12 @@
     "sounds": [
       {
         "name": "fww:item/rocket_launcher/shoot1",
+        "attenuation_distance": 64,
         "pitch": 0.95
       },
       {
         "name": "fww:item/rocket_launcher/shoot1",
+        "attenuation_distance": 64,
         "pitch": 1.05
       }
     ],
@@ -269,7 +258,7 @@
     "sounds": [
       {
         "name": "fww:item/rocket_launcher/flight1",
-        "attenuation_distance": 48
+        "attenuation_distance": 40
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.flight"

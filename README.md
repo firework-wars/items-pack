@@ -21,10 +21,10 @@ They live under `assets/fww/models/item/bd` and `assets/fww/textures/item/bd`, a
 [usage terms](https://docs.google.com/document/d/1pZhZgquviBfUInZu2ju_tA35Zgf_Pe8hdJ3Gi4C-pOU/edit?usp=drivesdk)
 (free to access, no monetisation, visible credit). The bayonet blade, gun loading sounds and everything else are our own.
 
-Gun sounds are CC0 recordings from OpenGameArt: Mosin-Nagant and shotgun shots from
-[Gunshot Sounds](https://opengameart.org/content/gunshot-sounds) (tabasco), the rocket launch from
-[Rocket launch](https://opengameart.org/content/rocket-launch) (qubodup), the rocket flight from
-[Thruster](https://opengameart.org/content/thruster) (ezduzziteh), and reload clicks from
-[Gun reload sounds](https://opengameart.org/content/gun-reload-sounds) (springyspringo),
-[Gun Reload Sound Effects](https://opengameart.org/content/gun-reload-sound-effects) and
-[Gun reload, lock or click sound](https://opengameart.org/content/gun-reload-lock-or-click-sound).
+Gun sounds:
+- Rifle: SKS shots from [Gunshot Sounds](https://opengameart.org/content/gunshot-sounds) (tabasco, CC0)
+- Shotgun: "Shotgun Blast" (352038) by Universfield on [Pixabay](https://pixabay.com/sound-effects/) (Pixabay Content License)
+- Rocket launcher shot: [Rocket launch](https://opengameart.org/content/rocket-launch) (qubodup, CC0) layered with a pitched-down shot from
+  [Gunshots](https://opengameart.org/content/gunshots) (kurt, CC0); flight: [Thruster](https://opengameart.org/content/thruster) (ezduzziteh, CC0)
+- Rocket launcher reload: [2 Gun Reloads](https://opengameart.org/content/2-gun-reloads), [Shotgun Reload Sound effects](https://opengameart.org/content/shotgun-reload-sound-effects)
+  and [Metal Impact Sounds](https://opengameart.org/content/metal-impact-sounds) (all CC0)

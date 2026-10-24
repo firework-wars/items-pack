@@ -18,5 +18,9 @@
   "item.crossbow.quick_charge_3": {
     "replace": true,
     "sounds": []
+  },
+  "entity.arrow.shoot": {
+    "replace": true,
+    "sounds": []
   }
 }
