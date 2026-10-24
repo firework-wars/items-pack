@@ -1,37 +1,172 @@
 {
   "item.firework_rifle.load_start": {
     "sounds": [
-      "fww:item/firework_rifle/load_start"
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_1",
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_1",
+        "pitch": 0.95,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_2",
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_2",
+        "pitch": 0.95,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_2",
+        "pitch": 1.05,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_3",
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_3",
+        "pitch": 0.9,
+        "volume": 1.0
+      },
+      {
+        "name": "minecraft:item/crossbow/quick_charge/quick3_3",
+        "pitch": 1.05,
+        "volume": 1.0
+      }
     ],
     "subtitle": "subtitles.fww.item.firework_rifle.load"
   },
   "item.firework_rifle.load_middle": {
     "sounds": [
-      "fww:item/firework_rifle/load_middle"
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "pitch": 0.95,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "pitch": 1.2,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "pitch": 0.9,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "pitch": 1.05,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle3",
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle3",
+        "pitch": 0.9,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle3",
+        "pitch": 1.05,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle4",
+        "volume": 0.975
+      }
     ],
     "subtitle": "subtitles.fww.item.firework_rifle.load"
   },
   "item.firework_rifle.load_end": {
     "sounds": [
-      "fww:item/firework_rifle/load_end"
+      {
+        "name": "minecraft:item/crossbow/loading_end",
+        "volume": 1.0
+      }
     ],
     "subtitle": "subtitles.fww.item.firework_rifle.load"
   },
   "item.firework_shotgun.load_start": {
     "sounds": [
-      "fww:item/firework_shotgun/load_start"
+      {
+        "name": "minecraft:item/crossbow/loading_start",
+        "volume": 0.6
+      }
     ],
     "subtitle": "subtitles.fww.item.firework_shotgun.load"
   },
   "item.firework_shotgun.load_middle": {
     "sounds": [
-      "fww:item/firework_shotgun/load_middle"
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "pitch": 0.95,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle1",
+        "pitch": 1.2,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "pitch": 0.9,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle2",
+        "pitch": 1.05,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle3",
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle3",
+        "pitch": 0.9,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle3",
+        "pitch": 1.05,
+        "volume": 0.975
+      },
+      {
+        "name": "minecraft:item/crossbow/loading_middle4",
+        "volume": 0.975
+      }
     ],
     "subtitle": "subtitles.fww.item.firework_shotgun.load"
   },
   "item.firework_shotgun.load_end": {
     "sounds": [
-      "fww:item/firework_shotgun/load_end"
+      {
+        "name": "minecraft:item/crossbow/loading_end",
+        "volume": 1.0
+      }
     ],
     "subtitle": "subtitles.fww.item.firework_shotgun.load"
   },
@@ -52,5 +187,23 @@
       "fww:item/rocket_launcher/load_end"
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.load"
+  },
+  "item.firework_rifle.shoot": {
+    "sounds": [
+      "fww:item/firework_rifle/shoot"
+    ],
+    "subtitle": "subtitles.fww.item.firework_rifle.shoot"
+  },
+  "item.firework_shotgun.shoot": {
+    "sounds": [
+      "fww:item/firework_shotgun/shoot"
+    ],
+    "subtitle": "subtitles.fww.item.firework_shotgun.shoot"
+  },
+  "item.rocket_launcher.shoot": {
+    "sounds": [
+      "fww:item/rocket_launcher/shoot"
+    ],
+    "subtitle": "subtitles.fww.item.rocket_launcher.shoot"
   }
 }
