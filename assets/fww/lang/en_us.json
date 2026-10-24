@@ -4,5 +4,6 @@
   "subtitles.fww.item.rocket_launcher.load": "Rocket Launcher loads",
   "subtitles.fww.item.firework_rifle.shoot": "Rifle fires",
   "subtitles.fww.item.firework_shotgun.shoot": "Shotgun fires",
-  "subtitles.fww.item.rocket_launcher.shoot": "Rocket Launcher fires"
+  "subtitles.fww.item.rocket_launcher.shoot": "Rocket Launcher fires",
+  "subtitles.fww.item.rocket_launcher.flight": "Rocket flies"
 }

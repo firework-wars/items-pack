@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:item/crossbow/air_strike_projectile",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [
+        19.92,
+        10.44,
+        4.35
+      ],
+      "translation": [
+        -4.826,
+        -2.593,
+        -5.7
+      ],
+      "scale": [
+        0.9417,
+        0.9936,
+        0.8981
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        19.92,
+        10.44,
+        4.35
+      ],
+      "translation": [
+        -4.826,
+        -2.593,
+        -5.7
+      ],
+      "scale": [
+        0.9417,
+        0.9936,
+        0.8981
+      ]
+    }
+  }
+}

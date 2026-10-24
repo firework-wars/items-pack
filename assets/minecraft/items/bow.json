@@ -10,7 +10,10 @@
           "property": "minecraft:display_context",
           "cases": [
             {
-              "when": "gui",
+              "when": [
+                "gui",
+                "fixed"
+              ],
               "model": {
                 "type": "minecraft:model",
                 "model": "fww:item/icon/rocket_launcher"
@@ -46,11 +49,11 @@
                     "models": [
                       {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/crossbow/air_strike_projectile"
+                        "model": "minecraft:item/crossbow/air_strike_projectile_bow"
                       },
                       {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/crossbow/air_strike_firework"
+                        "model": "minecraft:item/crossbow/air_strike_firework_bow"
                       }
                     ]
                   }

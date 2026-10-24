@@ -20,3 +20,11 @@ The musket (Firework Rifle and Bayonet), rocket launcher and Stormlander (Warden
 They live under `assets/fww/models/item/bd` and `assets/fww/textures/item/bd`, and are used under Barely Default's
 [usage terms](https://docs.google.com/document/d/1pZhZgquviBfUInZu2ju_tA35Zgf_Pe8hdJ3Gi4C-pOU/edit?usp=drivesdk)
 (free to access, no monetisation, visible credit). The bayonet blade, gun loading sounds and everything else are our own.
+
+Gun sounds are CC0 recordings from OpenGameArt: Mosin-Nagant and shotgun shots from
+[Gunshot Sounds](https://opengameart.org/content/gunshot-sounds) (tabasco), the rocket launch from
+[Rocket launch](https://opengameart.org/content/rocket-launch) (qubodup), the rocket flight from
+[Thruster](https://opengameart.org/content/thruster) (ezduzziteh), and reload clicks from
+[Gun reload sounds](https://opengameart.org/content/gun-reload-sounds) (springyspringo),
+[Gun Reload Sound Effects](https://opengameart.org/content/gun-reload-sound-effects) and
+[Gun reload, lock or click sound](https://opengameart.org/content/gun-reload-lock-or-click-sound).

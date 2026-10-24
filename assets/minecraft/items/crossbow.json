@@ -66,7 +66,10 @@
             "property": "minecraft:display_context",
             "cases": [
               {
-                "when": "gui",
+                "when": [
+                  "gui",
+                  "fixed"
+                ],
                 "model": {
                   "type": "minecraft:model",
                   "model": "fww:item/icon/firework_rifle"
@@ -277,7 +280,10 @@
             "property": "minecraft:display_context",
             "cases": [
               {
-                "when": "gui",
+                "when": [
+                  "gui",
+                  "fixed"
+                ],
                 "model": {
                   "type": "minecraft:model",
                   "model": "fww:item/icon/firework_bayonet"
@@ -456,7 +462,10 @@
           "property": "minecraft:display_context",
           "cases": [
             {
-              "when": "gui",
+              "when": [
+                "gui",
+                "fixed"
+              ],
               "model": {
                 "type": "minecraft:model",
                 "model": "fww:item/icon/firework_shotgun"
