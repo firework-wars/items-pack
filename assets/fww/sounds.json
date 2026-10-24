@@ -240,7 +240,7 @@
     "sounds": [
       {
         "name": "fww:item/rocket_launcher/flight1",
-        "attenuation_distance": 40
+        "attenuation_distance": 128
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.flight"
