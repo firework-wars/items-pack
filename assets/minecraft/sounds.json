@@ -32,19 +32,19 @@
     "sounds": [
       {
         "name": "random/explode1",
-        "attenuation_distance": 32
+        "attenuation_distance": 80
       },
       {
         "name": "random/explode2",
-        "attenuation_distance": 32
+        "attenuation_distance": 80
       },
       {
         "name": "random/explode3",
-        "attenuation_distance": 32
+        "attenuation_distance": 80
       },
       {
         "name": "random/explode4",
-        "attenuation_distance": 32
+        "attenuation_distance": 80
       }
     ],
     "subtitle": "subtitles.entity.generic.explode"
