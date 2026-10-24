@@ -283,12 +283,18 @@
               {
                 "when": [
                   "gui",
-                  "fixed",
-                  "ground"
+                  "fixed"
                 ],
                 "model": {
                   "type": "minecraft:model",
                   "model": "fww:item/icon/firework_bayonet"
+                }
+              },
+              {
+                "when": "ground",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fww:item/icon/firework_bayonet_ground"
                 }
               }
             ],

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fww:item/icon/firework_bayonet_ground"
+  },
+  "display": {
+    "ground": {
+      "translation": [
+        0,
+        6,
+        0
+      ],
+      "scale": [
+        2.0,
+        2.0,
+        0.5
+      ]
+    }
+  }
+}
