@@ -12,12 +12,18 @@
             {
               "when": [
                 "gui",
-                "fixed",
-                "ground"
+                "fixed"
               ],
               "model": {
                 "type": "minecraft:model",
                 "model": "fww:item/icon/rocket_launcher"
+              }
+            },
+            {
+              "when": "ground",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fww:item/icon/rocket_launcher_ground"
               }
             }
           ],
