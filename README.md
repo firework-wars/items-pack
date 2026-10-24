@@ -22,9 +22,8 @@ They live under `assets/fww/models/item/bd` and `assets/fww/textures/item/bd`, a
 (free to access, no monetisation, visible credit). The bayonet blade, gun loading sounds and everything else are our own.
 
 Gun sounds:
-- Rifle: SKS shots from [Gunshot Sounds](https://opengameart.org/content/gunshot-sounds) (tabasco, CC0)
+- Rifle: pistol-shot.mp3 (supplied by the maintainer; source to be credited)
 - Shotgun: "Shotgun Blast" (352038) by Universfield on [Pixabay](https://pixabay.com/sound-effects/) (Pixabay Content License)
-- Rocket launcher shot: [Rocket launch](https://opengameart.org/content/rocket-launch) (qubodup, CC0) layered with a pitched-down shot from
-  [Gunshots](https://opengameart.org/content/gunshots) (kurt, CC0); flight: [Thruster](https://opengameart.org/content/thruster) (ezduzziteh, CC0)
-- Rocket launcher reload: [2 Gun Reloads](https://opengameart.org/content/2-gun-reloads), [Shotgun Reload Sound effects](https://opengameart.org/content/shotgun-reload-sound-effects)
-  and [Metal Impact Sounds](https://opengameart.org/content/metal-impact-sounds) (all CC0)
+- Rocket launcher shot: "Rocket Launcher Shot 50" from [QuickSounds.com](https://quicksounds.com)
+- Rocket launcher reload and in-flight sound: Fortnite's Rocket Launcher sounds (Epic Games), via the
+  [Fortnite Wiki](https://fortnite.fandom.com/wiki/Rocket_Launcher#Sounds). These are Epic's assets, not ours.

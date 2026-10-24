@@ -173,8 +173,7 @@
   "item.rocket_launcher.load_start": {
     "sounds": [
       {
-        "name": "fww:item/rocket_launcher/load_start1",
-        "pitch": 0.8
+        "name": "fww:item/rocket_launcher/load_start1"
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.load"
@@ -182,8 +181,7 @@
   "item.rocket_launcher.load_middle": {
     "sounds": [
       {
-        "name": "fww:item/rocket_launcher/load_middle1",
-        "pitch": 0.72
+        "name": "fww:item/rocket_launcher/load_middle1"
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.load"
@@ -191,8 +189,7 @@
   "item.rocket_launcher.load_end": {
     "sounds": [
       {
-        "name": "fww:item/rocket_launcher/load_end1",
-        "pitch": 0.85
+        "name": "fww:item/rocket_launcher/load_end1"
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.load"
@@ -201,23 +198,15 @@
     "sounds": [
       {
         "name": "fww:item/firework_rifle/shoot1",
-        "volume": 0.9,
-        "pitch": 0.96
+        "pitch": 0.95
       },
       {
         "name": "fww:item/firework_rifle/shoot1",
-        "volume": 0.9,
-        "pitch": 1.04
+        "pitch": 1.0
       },
       {
-        "name": "fww:item/firework_rifle/shoot2",
-        "volume": 0.9,
-        "pitch": 0.96
-      },
-      {
-        "name": "fww:item/firework_rifle/shoot2",
-        "volume": 0.9,
-        "pitch": 1.04
+        "name": "fww:item/firework_rifle/shoot1",
+        "pitch": 1.05
       }
     ],
     "subtitle": "subtitles.fww.item.firework_rifle.shoot"
@@ -243,13 +232,7 @@
     "sounds": [
       {
         "name": "fww:item/rocket_launcher/shoot1",
-        "attenuation_distance": 64,
-        "pitch": 0.95
-      },
-      {
-        "name": "fww:item/rocket_launcher/shoot1",
-        "attenuation_distance": 64,
-        "pitch": 1.05
+        "attenuation_distance": 64
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.shoot"
