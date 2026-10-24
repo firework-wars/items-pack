@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Consider supporting Barely Default to help keep the pack going - http://youtube.com/@MushirMickeyJoe/join",
+	"parent": "fww:item/bd/crossbow/reserve_shooter",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -15, 0],
+			"translation": [-0.25, 3.5, -2.25],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -15, 0],
+			"translation": [-0.25, 3.5, -2.25],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -11, 0],
+			"translation": [1.75, 0.45, -3.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -11, 0],
+			"translation": [1.75, 0.45, -3.25]
+		}
+	}
+}
