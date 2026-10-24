@@ -14,10 +14,17 @@
             "scale": 0.05,
             "entries": [
               {
-                "threshold": 1.4,
+                "threshold": 0.95,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "fww:item/bd/crossbow/goliath_pulling_2"
+                  "model": "fww:item/bd/crossbow/goliath_pulling_0"
+                }
+              },
+              {
+                "threshold": 1.95,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "fww:item/bd/crossbow/goliath"
                 }
               },
               {
@@ -30,7 +37,7 @@
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "fww:item/bd/crossbow/goliath_pulling_0"
+              "model": "fww:item/bd/crossbow/goliath"
             }
           },
           "on_false": {
