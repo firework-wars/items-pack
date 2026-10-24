@@ -231,8 +231,7 @@
   "item.rocket_launcher.shoot": {
     "sounds": [
       {
-        "name": "fww:item/rocket_launcher/shoot1",
-        "attenuation_distance": 64
+        "name": "fww:item/rocket_launcher/shoot1"
       }
     ],
     "subtitle": "subtitles.fww.item.rocket_launcher.shoot"
