@@ -2,5 +2,14 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "fww:item/icon/firework_bayonet"
+  },
+  "display": {
+    "gui": {
+      "scale": [2, 2, 2]
+    },
+    "fixed": {
+      "rotation": [0, 180, 0],
+      "scale": [2, 2, 2]
+    }
   }
 }
