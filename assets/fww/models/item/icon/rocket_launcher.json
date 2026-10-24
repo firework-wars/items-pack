@@ -2,5 +2,14 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "fww:item/icon/rocket_launcher"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.15,
+        1.15,
+        1.15
+      ]
+    }
   }
 }
