@@ -12,7 +12,8 @@
             {
               "when": [
                 "gui",
-                "fixed"
+                "fixed",
+                "ground"
               ],
               "model": {
                 "type": "minecraft:model",
