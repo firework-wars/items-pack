@@ -98,7 +98,7 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_crossbow_pulling_1"
                         }
                       ]
                     }
@@ -118,7 +118,7 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_crossbow_pulling_2"
                         }
                       ]
                     }
@@ -137,7 +137,7 @@
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_crossbow_projectile"
+                      "model": "fww:item/musket_crossbow_pulling_0"
                     }
                   ]
                 }
@@ -165,7 +165,7 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_crossbow_arrow"
                         }
                       ]
                     }
@@ -185,11 +185,11 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_firework"
+                          "model": "fww:item/musket_rocket"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_crossbow_firework"
                         }
                       ]
                     }
@@ -208,7 +208,7 @@
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_crossbow"
+                      "model": "fww:item/musket_crossbow_standby"
                     }
                   ]
                 }
@@ -312,11 +312,11 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/musket_crossbow_pulling_1"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_bayonet_projectile"
                         }
                       ]
                     }
@@ -336,11 +336,11 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/musket_crossbow_pulling_2"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_bayonet_projectile"
                         }
                       ]
                     }
@@ -359,11 +359,11 @@
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_bayonet_projectile"
+                      "model": "fww:item/musket_crossbow_pulling_0"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_crossbow_projectile"
+                      "model": "fww:item/musket_bayonet_projectile"
                     }
                   ]
                 }
@@ -391,11 +391,11 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_bayonet_projectile"
+                          "model": "fww:item/musket_crossbow_arrow"
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
+                          "model": "fww:item/musket_bayonet_projectile"
                         }
                       ]
                     }
@@ -415,15 +415,15 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/bd/crossbow/squared/musket_firework"
+                          "model": "fww:item/musket_rocket"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/musket_crossbow_firework"
                         },
                         {
                           "type": "minecraft:model",
                           "model": "fww:item/musket_bayonet_projectile"
-                        },
-                        {
-                          "type": "minecraft:model",
-                          "model": "fww:item/musket_crossbow_projectile"
                         }
                       ]
                     }
@@ -442,11 +442,11 @@
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_bayonet"
+                      "model": "fww:item/musket_crossbow_standby"
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/musket_crossbow"
+                      "model": "fww:item/musket_bayonet"
                     }
                   ]
                 }
@@ -495,7 +495,7 @@
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/shotgun_crossbow_projectile"
+                      "model": "fww:item/shotgun_crossbow_firework"
                     }
                   ]
                 }
@@ -523,7 +523,7 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/shotgun_crossbow_pulling"
+                          "model": "fww:item/shotgun_crossbow_pulling_1"
                         }
                       ]
                     }
@@ -543,7 +543,7 @@
                         },
                         {
                           "type": "minecraft:model",
-                          "model": "fww:item/shotgun_crossbow_pulling"
+                          "model": "fww:item/shotgun_crossbow_pulling_2"
                         }
                       ]
                     }
@@ -562,7 +562,7 @@
                     },
                     {
                       "type": "minecraft:model",
-                      "model": "fww:item/shotgun_crossbow_pulling"
+                      "model": "fww:item/shotgun_crossbow_pulling_0"
                     }
                   ]
                 }
@@ -580,7 +580,7 @@
                   },
                   {
                     "type": "minecraft:model",
-                    "model": "fww:item/shotgun_crossbow"
+                    "model": "fww:item/shotgun_crossbow_standby"
                   }
                 ]
               }

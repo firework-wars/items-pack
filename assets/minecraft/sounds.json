@@ -22,5 +22,9 @@
   "entity.arrow.shoot": {
     "replace": true,
     "sounds": []
+  },
+  "item.crossbow.shoot": {
+    "replace": true,
+    "sounds": []
   }
 }
