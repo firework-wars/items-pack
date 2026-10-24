@@ -1,0 +1,56 @@
+{
+  "item.firework_rifle.load_start": {
+    "sounds": [
+      "fww:item/firework_rifle/load_start"
+    ],
+    "subtitle": "subtitles.fww.item.firework_rifle.load"
+  },
+  "item.firework_rifle.load_middle": {
+    "sounds": [
+      "fww:item/firework_rifle/load_middle"
+    ],
+    "subtitle": "subtitles.fww.item.firework_rifle.load"
+  },
+  "item.firework_rifle.load_end": {
+    "sounds": [
+      "fww:item/firework_rifle/load_end"
+    ],
+    "subtitle": "subtitles.fww.item.firework_rifle.load"
+  },
+  "item.firework_shotgun.load_start": {
+    "sounds": [
+      "fww:item/firework_shotgun/load_start"
+    ],
+    "subtitle": "subtitles.fww.item.firework_shotgun.load"
+  },
+  "item.firework_shotgun.load_middle": {
+    "sounds": [
+      "fww:item/firework_shotgun/load_middle"
+    ],
+    "subtitle": "subtitles.fww.item.firework_shotgun.load"
+  },
+  "item.firework_shotgun.load_end": {
+    "sounds": [
+      "fww:item/firework_shotgun/load_end"
+    ],
+    "subtitle": "subtitles.fww.item.firework_shotgun.load"
+  },
+  "item.rocket_launcher.load_start": {
+    "sounds": [
+      "fww:item/rocket_launcher/load_start"
+    ],
+    "subtitle": "subtitles.fww.item.rocket_launcher.load"
+  },
+  "item.rocket_launcher.load_middle": {
+    "sounds": [
+      "fww:item/rocket_launcher/load_middle"
+    ],
+    "subtitle": "subtitles.fww.item.rocket_launcher.load"
+  },
+  "item.rocket_launcher.load_end": {
+    "sounds": [
+      "fww:item/rocket_launcher/load_end"
+    ],
+    "subtitle": "subtitles.fww.item.rocket_launcher.load"
+  }
+}

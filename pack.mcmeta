@@ -1,7 +1,7 @@
 {
   "pack": {
-    "description": "Firework Wars Items Pack",
-    "min_format": [84, 0],
+    "description": "Firework Wars Items Pack\n§7Models from §dBarely Default §7- §9YT.com/@MushirMickeyJoe",
+    "min_format": [97, 1],
     "max_format": [2147483647, 0]
   }
 }

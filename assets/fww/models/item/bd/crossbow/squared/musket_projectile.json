@@ -1,0 +1,64 @@
+{
+    "format_version": "1.21.11",
+    "parent": "fww:item/bd/crossbow/squared/musket",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                3,
+                -15,
+                0
+            ],
+            "translation": [
+                -0.25,
+                8.25,
+                -1.5
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                3,
+                -15,
+                0
+            ],
+            "translation": [
+                -0.25,
+                8.25,
+                -1.5
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                3,
+                -10,
+                0
+            ],
+            "translation": [
+                1.75,
+                6,
+                -2.75
+            ],
+            "scale": [
+                0.68,
+                0.68,
+                0.68
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                3,
+                -10,
+                0
+            ],
+            "translation": [
+                1.75,
+                6,
+                -2.75
+            ],
+            "scale": [
+                0.68,
+                0.68,
+                0.68
+            ]
+        }
+    }
+}

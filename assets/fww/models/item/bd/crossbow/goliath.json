@@ -1,0 +1,6 @@
+{
+    "parent": "fww:item/bd/crossbow/the_first_goliath",
+    "textures": {
+        "particle": "fww:item/bd/crossbow/goliath"
+    }
+}

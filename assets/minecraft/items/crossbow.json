@@ -4,27 +4,64 @@
     "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "firework_bayonet",
+        "when": "firework_rifle",
         "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:charge_type",
-          "cases": [
-            {
-              "when": "arrow",
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/bayonet_arrow"
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/crossbow_arrow"
+                }
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/crossbow_firework"
+                }
               }
-            },
-            {
-              "when": "rocket",
-              "model": {
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:crossbow/pull",
+                "entries": [
+                  {
+                    "threshold": 0.58,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/crossbow_pulling_1"
+                    }
+                  },
+                  {
+                    "threshold": 1.0,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/crossbow_pulling_2"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/crossbow_pulling_0"
+                }
+              },
+              "on_false": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/bayonet_firework"
+                "model": "minecraft:item/crossbow"
               }
             }
-          ],
-          "fallback": {
+          },
+          "on_false": {
             "type": "minecraft:condition",
             "property": "minecraft:using_item",
             "on_true": {
@@ -34,26 +71,306 @@
                 {
                   "threshold": 0.58,
                   "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:item/bayonet_pulling_1"
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_pulling_0"
+                      }
+                    ]
                   }
                 },
                 {
                   "threshold": 1.0,
                   "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:item/bayonet_pulling_2"
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_pulling_1"
+                      }
+                    ]
                   }
                 }
               ],
               "fallback": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/bayonet_pulling_0"
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                  },
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                  }
+                ]
               }
             },
             "on_false": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/bayonet"
+              "type": "minecraft:select",
+              "property": "minecraft:charge_type",
+              "cases": [
+                {
+                  "when": "arrow",
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_arrow"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "when": "rocket",
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_firework"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket"
+                  },
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket_hammer"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "when": "firework_bayonet",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "on_true": {
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bayonet_arrow"
+                }
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bayonet_firework"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:crossbow/pull",
+                "entries": [
+                  {
+                    "threshold": 0.58,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bayonet_pulling_1"
+                    }
+                  },
+                  {
+                    "threshold": 1.0,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/bayonet_pulling_2"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bayonet_pulling_0"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bayonet"
+              }
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:crossbow/pull",
+              "entries": [
+                {
+                  "threshold": 0.58,
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_pulling_0"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/musket_bayonet_projectile"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "threshold": 1.0,
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_pulling_1"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/musket_bayonet_projectile"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                  },
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                  },
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/musket_bayonet_projectile"
+                  }
+                ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:select",
+              "property": "minecraft:charge_type",
+              "cases": [
+                {
+                  "when": "arrow",
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_arrow"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/musket_bayonet_projectile"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "when": "rocket",
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_hammer_projectile"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/bd/crossbow/squared/musket_firework"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "fww:item/musket_bayonet_projectile"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:composite",
+                "models": [
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket"
+                  },
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/bd/crossbow/squared/musket_hammer"
+                  },
+                  {
+                    "type": "minecraft:model",
+                    "model": "fww:item/musket_bayonet"
+                  }
+                ]
+              }
             }
           }
         }
@@ -208,5 +525,6 @@
         }
       }
     }
-  }
+  },
+  "oversized_in_gui": true
 }

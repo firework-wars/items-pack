@@ -1,0 +1,37 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "wardens_wrath",
+        "model": {
+          "type": "minecraft:composite",
+          "models": [
+            {
+              "type": "minecraft:model",
+              "model": "fww:item/bd/mace/stormlander"
+            },
+            {
+              "type": "minecraft:condition",
+              "property": "minecraft:has_component",
+              "component": "minecraft:consumable",
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "fww:item/bd/mace/stormlander_lightning"
+              },
+              "on_false": {
+                "type": "minecraft:empty"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}

@@ -14,44 +14,28 @@
             "scale": 0.05,
             "entries": [
               {
-                "threshold": 0.95,
+                "threshold": 1.4,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/crossbow/air_strike_pulling"
-                }
-              },
-              {
-                "threshold": 1.95,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/crossbow/air_strike"
+                  "model": "fww:item/bd/crossbow/goliath_pulling_2"
                 }
               },
               {
                 "threshold": 2.8,
                 "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/crossbow/air_strike_projectile"
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/crossbow/air_strike_firework"
-                    }
-                  ]
+                  "type": "minecraft:model",
+                  "model": "fww:item/bd/crossbow/goliath_firework"
                 }
               }
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "minecraft:item/crossbow/air_strike"
+              "model": "fww:item/bd/crossbow/goliath_pulling_0"
             }
           },
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/crossbow/air_strike"
+            "model": "fww:item/bd/crossbow/goliath"
           }
         }
       }
@@ -89,5 +73,6 @@
         "model": "minecraft:item/bow"
       }
     }
-  }
+  },
+  "oversized_in_gui": true
 }

@@ -1,0 +1,95 @@
+{
+    "format_version": "1.21.6",
+    "parent": "fww:item/bd/crossbow/squared/musket_projectile",
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "particle": "fww:item/bd/bow/squared/arrow"
+    },
+    "elements": [
+        {
+            "from": [
+                8,
+                1,
+                -7
+            ],
+            "to": [
+                8,
+                5,
+                9
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "z",
+                "origin": [
+                    8,
+                    2.5,
+                    1
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        4
+                    ],
+                    "texture": "#particle"
+                },
+                "west": {
+                    "uv": [
+                        16,
+                        0,
+                        0,
+                        4
+                    ],
+                    "texture": "#particle"
+                }
+            }
+        },
+        {
+            "from": [
+                8,
+                0.95,
+                -7
+            ],
+            "to": [
+                8,
+                4.95,
+                9
+            ],
+            "rotation": {
+                "angle": -45,
+                "axis": "z",
+                "origin": [
+                    8,
+                    2.45,
+                    1
+                ]
+            },
+            "faces": {
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        4
+                    ],
+                    "texture": "#particle"
+                },
+                "west": {
+                    "uv": [
+                        16,
+                        0,
+                        0,
+                        4
+                    ],
+                    "texture": "#particle"
+                }
+            }
+        }
+    ]
+}

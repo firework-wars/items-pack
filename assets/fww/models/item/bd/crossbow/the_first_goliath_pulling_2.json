@@ -1,0 +1,29 @@
+{
+    "parent": "fww:item/bd/crossbow/the_first_goliath",
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [
+                69,
+                0,
+                0
+            ],
+            "translation": [
+                9.25,
+                4.75,
+                -0.5
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                69,
+                0,
+                0
+            ],
+            "translation": [
+                9.25,
+                4.75,
+                -0.5
+            ]
+        }
+    }
+}
