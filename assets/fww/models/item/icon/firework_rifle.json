@@ -2,5 +2,14 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "fww:item/icon/firework_rifle"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.142,
+        1.142,
+        1.142
+      ]
+    }
   }
 }
