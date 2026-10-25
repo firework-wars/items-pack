@@ -1,0 +1,28 @@
+# Builds the pack on every push to main and puts it on the "latest" release, where the network's proxy sends it from.
+name: Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Build the pack
+        run: git archive --format=zip -o fww-items-pack.zip HEAD
+
+      - name: Upload it to the latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest > /dev/null 2>&1 || gh release create latest --title "Latest pack" \
+            --notes "Rebuilt from main on every push. The network sends this file to players when they join."
+          gh release upload latest fww-items-pack.zip --clobber
