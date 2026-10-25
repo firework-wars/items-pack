@@ -62,125 +62,125 @@
             }
           },
           "on_false": {
-            "type": "minecraft:condition",
-            "property": "minecraft:using_item",
-            "on_true": {
-              "type": "minecraft:range_dispatch",
-              "property": "minecraft:crossbow/pull",
-              "entries": [
-                {
-                  "threshold": 0.58,
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_1"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_pulling_1"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "threshold": 1.0,
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_pulling_2"
-                      }
-                    ]
-                  }
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_arrow"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_crossbow_arrow"
+                    }
+                  ]
                 }
-              ],
-              "fallback": {
-                "type": "minecraft:composite",
-                "models": [
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
-                  },
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
-                  },
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/reserve_shooter_crossbow_pulling_0"
-                  }
-                ]
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_firework"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_crossbow_firework"
+                    }
+                  ]
+                }
               }
-            },
-            "on_false": {
-              "type": "minecraft:select",
-              "property": "minecraft:charge_type",
-              "cases": [
-                {
-                  "when": "arrow",
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_arrow"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_arrow"
-                      }
-                    ]
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:crossbow/pull",
+                "entries": [
+                  {
+                    "threshold": 0.58,
+                    "model": {
+                      "type": "minecraft:composite",
+                      "models": [
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_1"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/reserve_shooter_crossbow_pulling_1"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 1.0,
+                    "model": {
+                      "type": "minecraft:composite",
+                      "models": [
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/reserve_shooter_crossbow_pulling_2"
+                        }
+                      ]
+                    }
                   }
-                },
-                {
-                  "when": "rocket",
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_firework"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_firework"
-                      }
-                    ]
-                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_crossbow_pulling_0"
+                    }
+                  ]
                 }
-              ],
-              "fallback": {
+              },
+              "on_false": {
                 "type": "minecraft:composite",
                 "models": [
                   {
@@ -260,145 +260,145 @@
             }
           },
           "on_false": {
-            "type": "minecraft:condition",
-            "property": "minecraft:using_item",
-            "on_true": {
-              "type": "minecraft:range_dispatch",
-              "property": "minecraft:crossbow/pull",
-              "entries": [
-                {
-                  "threshold": 0.58,
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_1"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_pulling_1"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_bayonet_pulling"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "threshold": 1.0,
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_pulling_2"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_bayonet_pulling"
-                      }
-                    ]
-                  }
+            "type": "minecraft:select",
+            "property": "minecraft:charge_type",
+            "cases": [
+              {
+                "when": "arrow",
+                "model": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_arrow"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_crossbow_arrow"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_bayonet_projectile"
+                    }
+                  ]
                 }
-              ],
-              "fallback": {
-                "type": "minecraft:composite",
-                "models": [
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
-                  },
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
-                  },
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/reserve_shooter_crossbow_pulling_0"
-                  },
-                  {
-                    "type": "minecraft:model",
-                    "model": "fww:item/reserve_shooter_bayonet_pulling"
-                  }
-                ]
+              },
+              {
+                "when": "rocket",
+                "model": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_firework"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_crossbow_firework"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_bayonet_projectile"
+                    }
+                  ]
+                }
               }
-            },
-            "on_false": {
-              "type": "minecraft:select",
-              "property": "minecraft:charge_type",
-              "cases": [
-                {
-                  "when": "arrow",
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_arrow"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_arrow"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_bayonet_projectile"
-                      }
-                    ]
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "property": "minecraft:using_item",
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:crossbow/pull",
+                "entries": [
+                  {
+                    "threshold": 0.58,
+                    "model": {
+                      "type": "minecraft:composite",
+                      "models": [
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_1"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/reserve_shooter_crossbow_pulling_1"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/reserve_shooter_bayonet_pulling"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 1.0,
+                    "model": {
+                      "type": "minecraft:composite",
+                      "models": [
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/reserve_shooter_crossbow_pulling_2"
+                        },
+                        {
+                          "type": "minecraft:model",
+                          "model": "fww:item/reserve_shooter_bayonet_pulling"
+                        }
+                      ]
+                    }
                   }
-                },
-                {
-                  "when": "rocket",
-                  "model": {
-                    "type": "minecraft:composite",
-                    "models": [
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_firework"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/bd/crossbow/reserve_shooter_hammer_projectile"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_crossbow_firework"
-                      },
-                      {
-                        "type": "minecraft:model",
-                        "model": "fww:item/reserve_shooter_bayonet_projectile"
-                      }
-                    ]
-                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_pulling"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/bd/crossbow/reserve_shooter_hammer_pulling_0"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_crossbow_pulling_0"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "fww:item/reserve_shooter_bayonet_pulling"
+                    }
+                  ]
                 }
-              ],
-              "fallback": {
+              },
+              "on_false": {
                 "type": "minecraft:composite",
                 "models": [
                   {
