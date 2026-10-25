@@ -6,52 +6,75 @@
       {
         "when": "rocket_launcher",
         "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_true": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:use_duration",
-            "scale": 0.05,
-            "entries": [
-              {
-                "threshold": 0.95,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/crossbow/air_strike_pulling"
-                }
-              },
-              {
-                "threshold": 1.95,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/crossbow/air_strike"
-                }
-              },
-              {
-                "threshold": 2.8,
-                "model": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/crossbow/air_strike_projectile_bow"
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/crossbow/air_strike_firework_bow"
-                    }
-                  ]
-                }
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "gui",
+                "fixed"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "fww:item/icon/rocket_launcher"
               }
-            ],
-            "fallback": {
+            },
+            {
+              "when": "ground",
+              "model": {
+                "type": "minecraft:model",
+                "model": "fww:item/icon/rocket_launcher_ground"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "property": "minecraft:use_duration",
+              "scale": 0.05,
+              "entries": [
+                {
+                  "threshold": 0.95,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/crossbow/air_strike_pulling"
+                  }
+                },
+                {
+                  "threshold": 1.95,
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/crossbow/air_strike"
+                  }
+                },
+                {
+                  "threshold": 2.8,
+                  "model": {
+                    "type": "minecraft:composite",
+                    "models": [
+                      {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/crossbow/air_strike_projectile_bow"
+                      },
+                      {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/crossbow/air_strike_firework_bow"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/air_strike"
+              }
+            },
+            "on_false": {
               "type": "minecraft:model",
               "model": "minecraft:item/crossbow/air_strike"
             }
-          },
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/crossbow/air_strike"
           }
         }
       }
