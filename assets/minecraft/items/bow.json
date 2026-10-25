@@ -10,10 +10,7 @@
           "property": "minecraft:display_context",
           "cases": [
             {
-              "when": [
-                "gui",
-                "fixed"
-              ],
+              "when": "gui",
               "model": {
                 "type": "minecraft:model",
                 "model": "fww:item/icon/rocket_launcher"

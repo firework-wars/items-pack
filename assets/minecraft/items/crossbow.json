@@ -68,7 +68,6 @@
               {
                 "when": [
                   "gui",
-                  "fixed",
                   "ground"
                 ],
                 "model": {
@@ -281,10 +280,7 @@
             "property": "minecraft:display_context",
             "cases": [
               {
-                "when": [
-                  "gui",
-                  "fixed"
-                ],
+                "when": "gui",
                 "model": {
                   "type": "minecraft:model",
                   "model": "fww:item/icon/firework_bayonet"
@@ -472,7 +468,6 @@
             {
               "when": [
                 "gui",
-                "fixed",
                 "ground"
               ],
               "model": {
